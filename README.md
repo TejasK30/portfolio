@@ -1,8 +1,46 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Web Developer Portfolio - EmailJS, React, React Router
 
-Currently, two official plugins are available:
+## Introduction
+Welcome to my Web Developer portfolio built using EmailJS, React, and React Router. This portfolio showcases my skills, experience, and the projects I have worked on as a web developer. Whether you're a potential employer, collaborator, or just curious about my work, I hope you find this portfolio informative and engaging.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- **React:** I've used React for building this portfolio, ensuring a dynamic and responsive user experience.
+- **React Router:** To manage the different sections and pages of the portfolio seamlessly.
+- **EmailJS:** This library is integrated for the contact form to enable users to send me messages directly from the portfolio.
+
+## Features
+Here are some key features of this portfolio:
+
+- **Home:** An introduction section with a brief overview of who I am.
+- **Projects:** A showcase of the projects I've worked on, each with its description and links.
+- **Abput:** A section highlighting about me and and my skills.
+- **Contact:** A contact form that allows visitors to send me messages directly.
+
+## Getting Started
+To run this portfolio on your local machine, follow these steps:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/your-portfolio-repo.git
+cd your-portfolio-repo
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Configure EmailJS:
+   - Create an EmailJS account and set up your email service.
+   - Replace the EmailJS variables in `emailjs.js` with your own.
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+The portfolio will be accessible at `http://localhost:5173`.

@@ -13,8 +13,7 @@ Welcome to my Web Developer portfolio built using EmailJS, React, and React Rout
 Here are some key features of this portfolio:
 
 - **Home:** An introduction section with a brief overview of who I am.
-- **Projects:** A showcase of the projects I've worked on, each with its description and links.
-- **Abput:** A section highlighting about me and and my skills.
+- **About:** A section highlighting about me and and my skills.
 - **Contact:** A contact form that allows visitors to send me messages directly.
 
 ## Getting Started

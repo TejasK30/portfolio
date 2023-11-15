@@ -2,7 +2,7 @@
 # Web Developer Portfolio - EmailJS, React, React Router
 
 ## Introduction
-Welcome to my Web Developer portfolio built using EmailJS, React, and React Router. This portfolio showcases my skills, experience, and the projects I have worked on as a web developer. Whether you're a potential employer, collaborator, or just curious about my work, I hope you find this portfolio informative and engaging.
+Welcome to my Web Developer portfolio built using EmailJS, React, and React Router. This portfolio showcases my skills. Whether you're a potential employer, collaborator, or just curious about my work, I hope you find this portfolio informative and engaging.
 
 ## Technologies Used
 - **React:** I've used React for building this portfolio, ensuring a dynamic and responsive user experience.

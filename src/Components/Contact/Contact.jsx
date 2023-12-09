@@ -1,7 +1,6 @@
-import './Contact.css'
-import Navbar from '../Navbar/Navbar'
+import emailjs from '@emailjs/browser';
 import { useRef, useState } from 'react';
-import emailjs from '@emailjs/browser'
+import './Contact.css';
 
 const ContactMe = () => {
   const form = useRef()
@@ -34,7 +33,6 @@ const ContactMe = () => {
 
   return (
     <>
-    <Navbar />
     <div className="contact-me-container">
         <h2 className='contact'>Contact Me</h2>
         <form ref={form} onSubmit={handleSubmit}>

@@ -1,4 +1,3 @@
-import Navbar from '../Navbar/Navbar'
 import Skills from '../Skills/Skills'
 import './About.css'
 
@@ -6,7 +5,6 @@ import './About.css'
 const About = () => {
   return (
     <>
-      <Navbar />
       <div className="about-me-container">
       <div className="about-me-content">
         <h1>About Me</h1>

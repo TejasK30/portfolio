@@ -95,6 +95,6 @@ nav .menu li {
     height: 0;
   }
   100% {
-    height: calc(100vh - 50px);
+    height: auto;
   }
 }

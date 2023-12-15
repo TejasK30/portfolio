@@ -1,4 +1,4 @@
-/* Navbar.css */
+
 
 nav {
 position: absolute;
@@ -30,14 +30,13 @@ padding-right: 8px;
 .link {
 color: #fff;
 }
-
 .menu-bar {
-display: none;
-font-size: 30px;
-position: absolute;
-top: 15%;
-right: 20px;
-cursor: pointer;
+  display: block;
+  position: absolute;
+  top: 15%;
+  right: 20px;
+  font-size: 30px;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {

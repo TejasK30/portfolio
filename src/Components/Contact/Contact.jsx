@@ -24,7 +24,7 @@ const ContactMe = () => {
       .sendForm('service_yw082ki','template_mk9sldf', form.current, '_jg0QobFYQVuBb3JT')
         .then(() => {
           alert('Message sent Successfully')
-          window.location.reload(false)
+          location.reload()
         }),
         ()=>{
           alert('Failed to send the message, please try again later')

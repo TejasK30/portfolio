@@ -30,7 +30,7 @@ nav .menu li {
 }
 
 .menu-bar {
-  display: block;
+  display: none;
   position: absolute;
   top: 15%;
   right: 20px;

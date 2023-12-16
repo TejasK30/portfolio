@@ -1,9 +1,11 @@
 import emailjs from '@emailjs/browser';
 import { useRef, useState } from 'react';
 import './Contact.css';
+import { useNavigate } from 'react-router-dom';
 
 const ContactMe = () => {
   const form = useRef()
+  const navigate = useNavigate()
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -24,7 +26,7 @@ const ContactMe = () => {
       .sendForm('service_yw082ki','template_mk9sldf', form.current, '_jg0QobFYQVuBb3JT')
         .then(() => {
           alert('Message sent Successfully')
-          location.reload()
+          navigate('/')
         }),
         ()=>{
           alert('Failed to send the message, please try again later')

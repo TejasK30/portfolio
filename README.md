@@ -23,7 +23,7 @@ To run this portfolio on your local machine, follow these steps:
 
 ```bash
 git clone https://github.com/yourusername/your-portfolio-repo.git
-cd your-portfolio-repo
+cd portfolio
 ```
 
 2. Install dependencies:

@@ -1,4 +1,4 @@
-export const projects = [
+export const projectsData = [
     {
         title: 'Portfolio Website',
         tech: ['React','Tailwindcss','react-router-dom', 'EmailJS'],

@@ -2,6 +2,12 @@ import emailjs from '@emailjs/browser';
 import { useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
+const service_id = import.meta.env.VITE_SERVICE_ID
+const template_id = import.meta.env.VITE_TEMPLATE_ID
+const public_key = import.meta.env.VITE_PUBLIC_KEY
+
+console.log(service_id, template_id, public_key);
+
 const ContactMe = () => {
   const form = useRef()
   const navigate = useNavigate()
@@ -22,7 +28,7 @@ const ContactMe = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm('service_yw082ki','template_mk9sldf', form.current, '_jg0QobFYQVuBb3JT')
+      .sendForm(service_id, template_id, form.current, public_key)
         .then(() => {
           alert('Message sent Successfully')
           navigate('/')

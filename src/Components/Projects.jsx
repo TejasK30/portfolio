@@ -1,16 +1,16 @@
 import { FaGithub } from "react-icons/fa"
 import { Link } from "react-router-dom"
-import { projects } from "./projects"
+import { projectsData } from "./projectsdata"
 
 const Projects = () => {
   return (
     <>
         <div className="flex">
             <div className="flex flex-col items-center justify-center">
-                <h1 className="text-2xl font-bold">Projects</h1>
+                <h1 className="text-2xl font-bold">projectsData</h1>
                 <div className="w-full p-5 mx-2 rounded">
                 {
-                    projects.map((project, index) => (
+                    projectsData.map((project, index) => (
                     <div className="border-2 border-gray-500 p-4 m-1" key={index}>
                         <h1 className="font-bold underline">Project title:</h1>
                         {project.title}

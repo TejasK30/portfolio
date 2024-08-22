@@ -7,7 +7,7 @@ const Projects = () => {
     <>
         <div className="flex">
             <div className="flex flex-col items-center justify-center">
-                <h1 className="text-2xl font-bold">projectsData</h1>
+                <h1 className="text-2xl font-bold">Projects</h1>
                 <div className="w-full p-5 mx-2 rounded">
                 {
                     projectsData.map((project, index) => (

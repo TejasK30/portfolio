@@ -17,7 +17,10 @@ const Home = () => {
             <Link to={"https://github.com/TejasK30"} target="_blank">
               <FaGithub size={30} />
             </Link>
-            <Link to={"https://www.linkedin.com/in/tejaskumbhar30/"}>
+            <Link
+              to={"https://www.linkedin.com/in/tejaskumbhar30/"}
+              target="_blank"
+            >
               <FaLinkedin size={30} color="#0077b9" />
             </Link>
           </div>
